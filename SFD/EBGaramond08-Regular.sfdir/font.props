@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1339019456
-ModificationTime: 1565414584
+ModificationTime: 1565416048
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -292,7 +292,7 @@ EndFPST
 ChainSub2: coverage "longs_replacement subtable" 0 0 0 1
  1 0 1
   Coverage: 1 s
-  FCoverage: 319 a b c d e f g h i j k l m n o p q r s t u v w x y z longs germandbls adieresis edieresis odieresis udieresis idieresis aacute eacute iacute oacute uacute agrave egrave igrave ograve ugrave atilde uni1EBD otilde utilde oe f.DEU f.long i.TRK u.LAT u.LATmedi v.LAT v.LATmedi longs.long f.long germandbls.alt hyphen uni200D
+  FCoverage: 315 a b c d e f g h i j k l m n o p q r s t u v w x y z longs germandbls adieresis edieresis odieresis udieresis idieresis aacute eacute iacute oacute uacute agrave egrave igrave ograve ugrave atilde uni1EBD otilde utilde ae oe f.DEU f.long i.TRK u.LAT u.LATmedi v.LAT v.LATmedi longs.long germandbls.alt hyphen uni200D
  1
   SeqLookup: 0 "Single Substitution lookup 44"
 EndFPST
