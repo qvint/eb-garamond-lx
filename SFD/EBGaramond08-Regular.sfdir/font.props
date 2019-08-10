@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1339019456
-ModificationTime: 1565412990
+ModificationTime: 1565414584
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -62,7 +62,7 @@ Lookup: 1 0 0 "Single Substitution lookup 3" { "Single Substitution lookup 3 sub
 Lookup: 1 0 0 "Single Substitution lookup 4" { "Single Substitution lookup 4 subtable"  } []
 Lookup: 1 0 0 "loclSRB" { "loclSRB subtable"  } ['locl' ('cyrl' <'SRB ' 'MKD ' > ) ]
 Lookup: 1 0 0 "loclLAT" { "loclLAT subtable"  } ['locl' ('latn' <'LAT ' > ) ]
-Lookup: 4 0 0 "LATliga" { "LATliga subtable"  } []
+Lookup: 4 0 0 "LATliga" { "LATliga subtable"  } ['hlig' ('latn' <'LAT ' > ) ]
 Lookup: 1 0 0 "'case' Case-Sensitive Forms lookup 8" { "'case' Case-Sensitive Forms lookup 8 subtable"  } ['case' ('latn' <'dflt' 'DEU ' 'TRK ' 'AZE ' 'CRT ' 'CAT ' 'LAT ' > 'grek' <'dflt' > 'cyrl' <'dflt' 'SRB ' 'MKD ' > 'DFLT' <'dflt' > ) ]
 Lookup: 2 0 0 "CCMP_Precomp" { "CCMP_Precomp subtable"  } ['c2sc' ('latn' <'dflt' 'DEU ' 'TRK ' 'AZE ' 'CRT ' 'CAT ' 'LAT ' > 'grek' <'dflt' > 'cyrl' <'dflt' 'SRB ' 'MKD ' > 'DFLT' <'dflt' > ) 'smcp' ('latn' <'dflt' 'DEU ' 'TRK ' 'AZE ' 'CRT ' 'CAT ' 'LAT ' > 'grek' <'dflt' > 'cyrl' <'dflt' 'SRB ' 'MKD ' > 'DFLT' <'dflt' > ) 'cv81' ('latn' <'dflt' 'DEU ' 'TRK ' 'AZE ' 'CRT ' 'CAT ' 'LAT ' > 'grek' <'dflt' > 'cyrl' <'dflt' 'SRB ' 'MKD ' > 'DFLT' <'dflt' > ) 'cv80' ('latn' <'dflt' 'DEU ' 'TRK ' 'AZE ' 'CRT ' 'CAT ' 'LAT ' > 'grek' <'dflt' > 'cyrl' <'dflt' 'SRB ' 'MKD ' > 'DFLT' <'dflt' > ) 'ss20' ('latn' <'dflt' 'DEU ' 'TRK ' 'AZE ' 'CRT ' 'CAT ' 'LAT ' > 'grek' <'dflt' > 'cyrl' <'dflt' 'SRB ' 'MKD ' > 'DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "CCMP_contextual" { "CCMP_contextual contextual 0"  "CCMP_contextual contextual 1"  "CCMP_contextual contextual 2"  } ['ccmp' ('latn' <'dflt' 'DEU ' 'TRK ' 'AZE ' 'CRT ' 'CAT ' 'LAT ' > 'grek' <'dflt' > 'cyrl' <'dflt' 'SRB ' 'MKD ' > 'DFLT' <'dflt' > ) ]
