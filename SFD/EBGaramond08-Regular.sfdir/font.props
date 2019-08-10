@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1339019456
-ModificationTime: 1565416048
+ModificationTime: 1565467393
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -55,6 +55,8 @@ OS2FamilyClass: 258
 OS2Vendor: 'PfEd'
 OS2CodePages: 20000111.41000000
 OS2UnicodeRanges: 800000a7.5000004a.00000000.00000000
+Lookup: 4 0 0 "Latin 'et' Ligature Substitution" { "Latin 'et' Ligature Substitution 1"  } []
+Lookup: 6 0 0 "Latin 'et' Contextual Chaining Substitution" { "Latin 'et' Contextual Chaining Substitution-1"  "Latin 'et' Contextual Chaining Substitution-2"  "Latin 'et' Contextual Chaining Substitution-3"  } ['hlig' ('latn' <'LAT ' > ) ]
 Lookup: 1 0 0 "loclDEU" { "loclDEU subtable"  } ['locl' ('latn' <'DEU ' > ) ]
 Lookup: 1 0 0 "loclTRK" { "loclTRK subtable"  } ['locl' ('latn' <'TRK ' 'AZE ' 'CRT ' > ) ]
 Lookup: 6 0 0 "loclCAT" { "loclCAT contextual 0"  "loclCAT contextual 1"  } ['locl' ('latn' <'CAT ' > ) ]
@@ -216,6 +218,51 @@ KernClass2: 15 15 "kern kerning class 0"
  3 eth
  8 dotlessi
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} -100 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -75 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} -20 {} -10 {} 0 {} -10 {} 0 {} -10 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} -10 {} 0 {} -30 {} 0 {} -10 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -35 {} 0 {} -20 {} 0 {} 0 {} -10 {} 0 {} -35 {} -20 {} 0 {} -100 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} -30 {} 0 {} 0 {} 0 {} -75 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 100 {} 100 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -16 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} 0 {}
+ChainSub2: class "Latin 'et' Contextual Chaining Substitution-3" 3 3 3 1
+  Class: 1 e
+  Class: 1 t
+  BClass: 1 e
+  BClass: 1 t
+  FClass: 1 e
+  FClass: 1 t
+ 2 0 0
+  ClsList: 1 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Latin 'et' Ligature Substitution"
+  ClassNames: "All_Others" "e" "t"
+  BClassNames: "All_Others" "e" "t"
+  FClassNames: "All_Others" "e" "t"
+EndFPST
+ChainSub2: class "Latin 'et' Contextual Chaining Substitution-2" 3 2 2 1
+  Class: 1 e
+  Class: 1 t
+  BClass: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  FClass: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+ 2 0 1
+  ClsList: 1 2
+  BClsList:
+  FClsList: 1
+ 0
+  ClassNames: "All_Others" "e" "t"
+  BClassNames: "All_Others" "ll"
+  FClassNames: "All_Others" "ll"
+EndFPST
+ChainSub2: class "Latin 'et' Contextual Chaining Substitution-1" 3 2 2 1
+  Class: 1 e
+  Class: 1 t
+  BClass: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  FClass: 103 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+ 2 1 0
+  ClsList: 1 2
+  BClsList: 1
+  FClsList:
+ 0
+  ClassNames: "All_Others" "e" "t"
+  BClassNames: "All_Others" "ll"
+  FClassNames: "All_Others" "ll"
+EndFPST
 ChainSub2: coverage "caltLAT subtable" 0 0 0 1
  1 1 0
   Coverage: 11 u.LAT v.LAT
